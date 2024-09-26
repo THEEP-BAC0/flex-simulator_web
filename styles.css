@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(208, 211, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    color: white;
+}
+
+form {
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+form #container {
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    text-align: center;
+}
+
+form #block {
+    background-color: rgb(215, 250, 219);
+    width: 40px;
+    border: 1px solid black;
+}
