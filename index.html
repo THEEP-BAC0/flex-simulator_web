@@ -11,28 +11,47 @@
 <body>
     <h2>Flex Simulator</h2>
 
-    <form>
-        <div id="container">
-            <div id="block">1</div>
-            <div id="block">2</div>
-        </div>
-        <section id="features">
-            <button id="blockBtn" type="button">Create Block</button>
-            <label for="just-cont">Justify-Content:</label>
-            <select class="dropdown" name="just-cont">
-                <option value="flex-start">flex-start</option>
-                <option value="flex-end">flex-end</option>
-                <option value="center">center</option>
-                <option value="space-between">space-between</option>
-                <option value="space-around">space-around</option>
-                <option value="space-evenly">space-evenly</option>
-                <option value="start">start</option>
-                <option value="end">end</option>
-                <option value="left">left</option>
-                <option value="right">right</option>
-            </select>
-        </section>
-    </form>
+    <content>
+        <form>
+            <div id="container"></div>
+
+            <section id="features">
+
+                <button id="blockBtn" type="button">Create Block</button>
+                
+                <div id="dropdowns">
+                    <div id="jc-ctrl">
+                        <label for="just-cont">Justify-Content: </label>
+                        <select class="dropdown" id="just-cont" name="just-cont">
+                            <option value="flex-start">Flex-start</option>
+                            <option value="flex-end">Flex-end</option>
+                            <option value="center">Center</option>
+                            <option value="space-between">Space-between</option>
+                            <option value="space-around">Space-around</option>
+                            <option value="space-evenly">Space-evenly</option>
+                            <option value="start">Start</option>
+                            <option value="end">End</option>
+                            <option value="left">Left</option>
+                            <option value="right">Right</option>
+                        </select>
+                    </div>
+
+                    <div id="ai-ctrl">
+                        <label for="algn-items">Align-Items: </label>
+                        <select class="dropdown" id="algn-items" name="algn-items">
+                            <option value="stretch">Stretch</option>
+                            <option value="flex-start">Flex-start</option>
+                            <option value="flex-end">Flex-end</option>
+                            <option value="center">Center</option>
+                            <option value="baseline">Baseline</option>
+                            <option value="start">Start</option>
+                            <option value="end">End</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </content>
 
     <script src="scripts.js"></script>
 </body>

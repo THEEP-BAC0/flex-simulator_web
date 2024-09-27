@@ -1,33 +1,82 @@
 body {
-    background-color: rgb(208, 211, 202);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(252, 222, 156);
+    text-align: center;
     padding: 0px;
     margin: 0px;
 }
 
+content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
 h2 {
-    color: white;
+    color: rgb(186, 86, 36);
+    font-size: 40px;
 }
 
 form {
-    background-color: white;
-    width: 350px;
+    background-color: rgb(245, 215, 151);
+    display: flex;
+    flex-direction: column;
+    width: 335px;
     height: 300px;
+    padding: 2px;
     border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 form #container {
-    height: 200px;
-    background-color: antiquewhite;
+    background-color: rgb(252, 222, 156);
     display: flex;
+    height: 60%;
     text-align: center;
 }
 
-form #block {
-    background-color: rgb(215, 250, 219);
+.block {
+    background-color: rgb(255, 165, 82);
     width: 40px;
     border: 1px solid black;
+    cursor: pointer;
+}
+
+form section {
+    background-color: rgb(56, 29, 42);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    height: 40%;
+    padding: 12px;
+}
+
+section button {
+    height: 30px;
+    color: white;
+    background-color: rgb(89, 46, 66);
+    border: 2px solid rgb(35, 18, 26);
+    border-radius: 2px;
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+section #dropdowns {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+section .dropdown {
+    color: white;
+    background-color: rgb(89, 46, 66);
+    border: 2px solid rgb(35, 18, 26);
+    border-radius: 2px;
+    margin: 2px;
+}
+
+section label {
+    color: white;
 }
