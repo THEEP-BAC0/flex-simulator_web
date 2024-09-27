@@ -23,7 +23,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 335px;
-    height: 300px;
+    height: 330px;
     padding: 2px;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -32,7 +32,7 @@ form {
 form #container {
     background-color: rgb(252, 222, 156);
     display: flex;
-    height: 60%;
+    height: 50%;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ form section {
     display: flex;
     flex-direction: column;
     display: flex;
-    height: 40%;
+    height: 30%;
     padding: 12px;
 }
 
@@ -78,5 +78,37 @@ section .dropdown {
 }
 
 section label {
+    color: white;
+}
+
+form #blockSettings {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    background-color: rgb(124, 64, 92);
+    padding: 12px;
+}
+
+#blockSettings p {
+    align-self: baseline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#blockSettings #dropdowns {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+#blockSettings .dropdown {
+    color: white;
+    background-color: rgb(89, 46, 66);
+    border: 2px solid rgb(35, 18, 26);
+    border-radius: 2px;
+    margin: 2px;
+}
+
+#blockSettings label {
     color: white;
 }
